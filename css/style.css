@@ -486,15 +486,19 @@
 {
     .container-figma{
         padding: 0;
-        width: 600px;
+        width: 450px;
         height: 600px;
     }
     .figmaframe{
-        width: 500px;
+        width: 450px;
         height: 450px;
     }
     .img-pfp-container{
         width: 50rem;
+        height: 300px;
+    }
+    .g-map{
+        width: 450px;
         height: 300px;
     }
 }
