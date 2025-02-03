@@ -485,8 +485,7 @@
 @media (max-width: 450px)
 {
     .container-figma{
-        
-        padding: 500px;
+        justify-self: center;
         width: 414px;
         height: 600px;
     }
