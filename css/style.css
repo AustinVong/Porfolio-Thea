@@ -301,12 +301,16 @@
 }
 
 .container-figma{
-    border-width: 10px;
-    border: #6244C5;
-    border-radius: 50px;
-    align-content: center;
-    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.figma-frame{
+    width: 1000px;
+    height: 700px;
 }
 
 #portfolio-flters li {
@@ -485,11 +489,12 @@
 @media (max-width: 450px)
 {
     .container-figma{
-        align-self: center;
-        width: 414px;
-        height: 600px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    .figmaframe{
+    .figma-frame{
         width: 450px;
         height: 800px;
     }
