@@ -308,6 +308,7 @@
 
 }
 
+
 .figma-frame{
     width: 1000px;
     height: 700px;
@@ -496,7 +497,7 @@
     }
     .figma-frame{
         width: 450px;
-        height: 800px;
+        height: 900px;
     }
     .img-pfp-container{
         width: 50rem;
